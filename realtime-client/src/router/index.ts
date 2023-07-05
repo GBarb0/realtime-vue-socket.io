@@ -1,6 +1,8 @@
 import {createRouter, createWebHistory} from "vue-router";
 import ScreenKeyboard from "@/pages/ScreenKeyboard.vue";
 import HomePage from "@/pages/HomePage.vue";
+import VideoPage from "@/pages/VideoPage.vue";
+import SpaceRoom from "@/pages/SpaceRoom.vue";
 
 const routes = [
     {
@@ -10,6 +12,14 @@ const routes = [
     {
         path: '/keyboard',
         component: ScreenKeyboard
+    },
+    {
+        path: '/video',
+        component: VideoPage
+    },
+    {
+        path: '/space-room',
+        component: SpaceRoom
     }
 ]
 
